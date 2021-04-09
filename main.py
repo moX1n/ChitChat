@@ -19,7 +19,7 @@ def chat_options():
         desired_time = int(input("How long between messages? \n>"))
         for i in range(0, desired_range):
             search = driver.find_element_by_class_name("ScInputBase-sc-1wz0osy-0")
-            search.send_keys(desired_string + " " + str(i))
+            search.send_keys(desired_string)
             search.send_keys(Keys.RETURN)
             time.sleep(desired_time)
             print(i)
@@ -30,9 +30,6 @@ def chat_check():
     search.send_keys(Keys.RETURN)
     time.sleep(2)
     search = driver.find_element_by_class_name("ScCoreButtonPrimary-sc-1qn4ixc-1").click()
-            
-            
-            
             
 def main():
     
