@@ -29,4 +29,6 @@ You will be prompted with: `Load or Save Cookies?`
 
 ### 3. Run 'main.py'.
 
+* You should add an interval of 30 seconds to avoid being timed out in most channels.
+
 # 4. Profit?
