@@ -1,6 +1,6 @@
 # ChitChat
 ---
-### ChitChat is a twitch chat bot capable of automated chatting.
+### ChitChat is a twitch chat bot capable of automated (repeating itself) chatting.
 ---
 
 ## Installation
